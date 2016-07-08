@@ -1,0 +1,28 @@
+Base de Datos Hospital (correciones realizadas)
+
+1.- Al momento de crear la tabla Permisoxusuario se agrego el id de la tabla 
+asi como se genero esta primaria y las otras dos se establecieron como foraneas.
+
+2.- Se cambio el tipo de dato en la tabla persona en el campo fechaNacimiento 
+que estaba declarado como datetime se cambio solamente a date.
+
+3.- En la tabla tratamiento se cambio el tipo de dato en los campos fechaSolicitud,
+ fechaInicio y fechaFinalizacion de datetime a date solamente.
+
+4.- en la tabla examen se cambio el tipo de dato de datetime a date en los campos
+fechaSolicitud y fechaAplicacion.
+
+5.- en la tabla resultado se cambio el tipo de dato en el campo fecha entrega de 
+datetime a date solamente.
+
+6.- en la tabla dieta se cambio el tipo de dato en los campos fechainicio de datetime
+ a date solamente y en el campo fechafinalizacion de varchar a date.
+
+7.- en la tabla factura el campo fechaGeneracion estaba establecido como datetime y se 
+cambio a date.
+
+8.- en la tabla pago el tipo de dato se cambio de varchar a date en el campo 
+fechaDePago.
+
+9.- en la tabla cuenta se modifico el tipo de dato en el campo fechaGeneracion de 
+datetime a date.
